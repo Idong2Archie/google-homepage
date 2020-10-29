@@ -7,17 +7,55 @@
     <title>Google Search Page</title>
 </head>
 <body>
-    <form>
-        <label for="gsearch">Search Google:</label>
-        <input type="search" id="gsearch" name="gsearch"
-    </form>
-    <img src="file:///home/archibongid/Desktop/the_odin_project/google-homepage/images/googlelogo_color_272x92dp.png" alt="google logo"
-<div class="navbar">
-    <a href="#">Gmail</a>
-    <a href="#">Images</a>
+    <!-- Top Navigation bar-->
+    <div class="top-nav">
+        <ul>
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a> </li>
+            <li><a href="#"><img id="google-apps-button" src="images/google.jpg" alt="Google Apps"></a></li>
+            <li><a href="#"><img id="profile-picture" src="https://post.healthline.com/wp-content/uploads/2020/08/edible-flowers-732x549-thumbnail.jpg" alt="Profile Picture"></a></li>
+        </ul>
     </div>
-    
- 
-</ul>
+
+<!-- Main Search Function-->
+
+    <div class="image-center">
+        <img id="google-logo" src="images/google.jpg" alt="Google logo">
+    </div>
+
+    <div class="main-center">
+        <form action="get">
+            <div class="border-text-line">
+                <input class="text-line" type="text" name="inquery" id="inquery" placeholder="Search Google or type a URL">
+            </div>
+            <div class="buttons-align">
+                <input class="buttons" type="button" name="search" value="Google Search">
+                <input class="buttons" type="button" name="glad Button" value="I'm glad to try this">
+            </div>
+            </form>
+        </div>
+        
+        <p> Google offered in: <a href="#">Efik</a> <a href="index.html">English</a></p>
+
+<!-- Fotter - left and right Navigation-->
+    <footer>
+        <div class="box-border">
+            <div class="location-bar">Global Earth</div>
+        </div>
+
+        <ul class="left-footer">
+            <li><a href="index.html">Advertising</a></li>
+            <li><a href="index.html">Business</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="index.html">How Search works</a></li>
+        </ul>
+
+        <ul class="right-footer">
+            <li><a href="index.html">Privacy</a></li>
+            <li><a href="index.html">Terms</a></li>
+            <li><a href="index.html">Settings</a></li>
+        </ul>
+    </footer>
+
 </body>
 </html>
